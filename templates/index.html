@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title> Meu primeiro site com Flask </title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li> My first site with flask! </li>
+        </ul>
+    </nav>
+    <section class="main-content">
+        <p> A temperatura atual em Guaraciaba do Norte é: </p>
+        <h1> {{temp}} graus </h1>
+    </section>
+</body>
+</html>
